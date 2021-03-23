@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Poetic Mind</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <section id="header">
+      <div class="container">
+        <img src="iconos/my_icon.png" alt="Osmig's Icon" class="my_logo" />
+
+        <div class="header-text">
+          <h1>
+            I seek a form that my style cannot Discover, a bud of that wants to
+            be a rose. - Ruben Dario
+          </h1>
+
+          <span class="square"></span>
+
+          <p class="parrafo">
+            All of have have brilliant thoughts, many of us want to express our
+            thoughts; Yet we suppress our minds and heart. Now is the time to
+            let our souls flourish and grow!
+          </p>
+
+          <button class="command-btn">Read More</button>
+
+          <div class="line">
+            <span class="line-1"></span> <br />
+            <span class="line-2"></span><br />
+            <span class="line-3"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <nav id="sideNav">
+      <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">FEATURES</a></li>
+        <li><a href="#">OFFER</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
+    </nav>
+
+    <img src="iconos/menu_bars.png" id="menuBtn" />
+
+    <!--about -->
+
+    <section id="about">
+      <div class="about-left-col">
+        <img src="images/Novelist writing-rafiki.png" />
+      </div>
+
+      <div class="about-right-col">
+        <div class="about-text">
+          <h1>About Us</h1>
+
+          <span class="square"></span>
+
+          <p>
+            We are trying to inspire people to write poetry, and share it with
+            other.
+          </p>
+          <br /><br />
+
+          <div class="line">
+            <span class="line-1"></span> <br />
+            <span class="line-2"></span><br />
+            <span class="line-3"></span>
+          </div>
+
+          <h2>"Poetry is the clear expression of mix feelings"</h2>
+
+          <h3>- W.H. Auden</h3>
+        </div>
+      </div>
+    </section>
+
+    <section id="features">
+      <img src="images/learn.png" alt="" />
+      <img src="images/community.png" alt="" />
+
+      <img src="images/share-content.png" alt="" />
+      <img src="images/learn.png" alt="" />
+      <img src="images/community.png" alt="" />
+
+      <img src="images/share-content.png" alt="" />
+    </section>
+
+    <script>
+      var menuBtn = document.getElementById("menuBtn");
+
+      var sideNav = document.getElementById("sideNav");
+
+      sideNav.style.right = "-250px";
+
+      menuBtn.onclick = function () {
+        if (sideNav.style.right == "-250px") {
+          sideNav.style.right = "0px";
+        } else {
+          sideNav.style.right = "-250px";
+        }
+      };
+    </script>
+  </body>
+</html>
